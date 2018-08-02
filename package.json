@@ -1,0 +1,24 @@
+{
+  "name": "s3-test-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "get": "node lib/makeRequest.js get",
+    "post": "node lib/makeRequest.js post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipyoo/s3-test-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipyoo/s3-test-tools/issues"
+  },
+  "homepage": "https://github.com/philipyoo/s3-test-tools#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "aws-sdk": "^2.285.1"
+  }
+}
