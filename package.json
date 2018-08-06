@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "get": "node lib/makeRequest.js get",
-    "post": "node lib/makeRequest.js post"
+    "post": "node lib/makeRequest.js post",
+    "removeVersions": "node lib/forceRemove.js"
   },
   "repository": {
     "type": "git",
