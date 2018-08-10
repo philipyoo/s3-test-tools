@@ -2,11 +2,15 @@
 
 set -a
 
+# cloudserver cluster ip
+CLOUDSERVER_ENDPOINT=zenko.local:80
+CLOUDSERVER_HOST=zenko.local
+
 # Zenko account credentials
 ZENKO_STORAGE_ACCOUNT_ACCESS_KEY=
 ZENKO_STORAGE_ACCOUNT_SECRET_KEY=
 # default is us-east-1
-AWS_S3_BACKEND_SOURCE_LOCATION=
+AWS_S3_BACKEND_SOURCE_LOCATION=us-east-1
 
 # AWS credentials/info
 AWS_S3_BACKEND_ACCESS_KEY=
@@ -29,9 +33,5 @@ GCP_BACKEND_SERVICE_EMAIL=
 GCP_CRR_BUCKET_NAME=
 # GCP site name
 GCP_BACKEND_DESTINATION_LOCATION=
-
-# cloudserver cluster ip
-CLOUDSERVER_ENDPOINT=
-CLOUDSERVER_HOST=
 
 set +a

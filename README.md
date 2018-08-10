@@ -5,14 +5,6 @@ Utility commands for helping to setup and test in Zenko kubernetes instance
 ## Setup
 
 ```
-# Zookeeper (for cli)
-$ wget http://apache.claz.org/zookeeper/stable/zookeeper-3.4.12.tar.gz
-$ tar xvf zookeeper-3.4.12.tar.gz
-
-# Kafka (for cli)
-$ wget http://apache.claz.org/kafka/2.0.0/kafka_2.11-2.0.0.tgz
-$ tar -xzf kafka_2.11-2.0.0.tgz
-
 # env vars
 # First add environment variables to "env.sh" then source:
 $ . ./env.sh
