@@ -1,0 +1,18 @@
+{
+    "Rules": [
+        {
+            "ID": "my rule",
+            "Status": "Enabled",
+            "Filter": {},
+            "NoncurrentVersionExpiration": {
+                "NoncurrentDays": 1
+            },
+            "Expiration": {
+                "Days": 1
+            },
+            "AbortIncompleteMultipartUpload": {
+                "DaysAfterInitiation": 1
+            }
+        }
+    ]
+}
