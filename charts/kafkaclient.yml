@@ -4,7 +4,7 @@ metadata:
   name: debug-kafka-cli
 spec:
   containers:
-  - name: kafka
+  - name: debug-kafka-cli
     image: solsson/kafka:0.11.0.0
     command:
       - sh
